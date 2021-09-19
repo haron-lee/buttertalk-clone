@@ -1,9 +1,12 @@
 .screen-header {
+  position: sticky;
+  width: 98%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .screen-header__title {
@@ -29,15 +32,20 @@
   animation: rotateCog 1s linear infinite;
 }
 
-@keyframes jumpMusic {
-  from {
-    transform: translateY(10px) translateY(-15px);
+@keyframes iconsChange {
+  0% {
+    transform: none;
   }
-  to {
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
     transform: none;
   }
 }
 
-.screen-header__icons .fa-music:hover {
-  animation: jumpMusic 1s linear infinite;
+.screen-header__icons i:hover {
+  cursor: pointer;
+  color: white;
+  animation: iconsChange 1s linear infinite;
 }

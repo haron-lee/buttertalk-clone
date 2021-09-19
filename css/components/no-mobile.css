@@ -1,5 +1,6 @@
 #no-mobile {
   display: none;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 580px) {
@@ -7,7 +8,7 @@
     position: fixed;
     z-index: 99;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: #ded7f0;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -16,4 +17,9 @@
     top: 0;
     overflow: hidden;
   }
+}
+
+#no-mobile img {
+  width: 250px;
+  height: 250px;
 }

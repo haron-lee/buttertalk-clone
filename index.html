@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <title>Welcome to Butter talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -13,7 +13,7 @@
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>20:00</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -23,27 +23,31 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
-      </p>
+      <img src="images/butter-chat.png" alt="">
     </header>
 
     <form action="friends.html" method="get" id="login-form">
       <input name="username" type="text" placeholder="Email or phone number" />
       <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <label for="login-checkbox">
+        <input id="login-checkbox" type="checkbox">
+        <span>Automatically log in and lock</span>
+      </label>
+      <a href="#">Find Butter Talk Account or Password</a>
     </form>
+    <div id="splash-screen">
+      <img src="images/butter-chat.png" alt="">
+    </div>
 
     <div id="no-mobile">
+      <img src="images/butter-in-chat.png" alt="">
       <span>이런! 화면 사이즈를 줄여주세요! <br><br> 
         Please reduce the size of the screen size!</span>
     </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </body>
 </html>

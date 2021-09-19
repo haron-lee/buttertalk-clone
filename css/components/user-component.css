@@ -17,7 +17,7 @@
 }
 
 .user-component__title {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 22px;
 }
 
@@ -58,7 +58,25 @@
   position: relative;
 }
 
+.text-shadow {
+  margin-bottom: 30px;
+}
+
 .text-shadow:hover {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.user-friends {
+  margin-bottom: 40px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.user-friends:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  cursor: pointer;
 }

@@ -2,7 +2,6 @@
 
 @import "reset.css";
 @import "variables.css";
-
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -22,9 +21,17 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:wght@300&display=swap");
+
 body {
-  color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  color: #4f0c5b;
+  font-family: "PT Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(/images/1.png);
+  background-size: 500px 900px;
 }
 
 .main-screen {
