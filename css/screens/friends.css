@@ -67,11 +67,14 @@
   width: 200px;
   height: 200px;
   animation: round 2.2s ease-in-out;
+<<<<<<< HEAD
 }
 
 #splash-screen__img {
   width: 200px;
   height: 200px;
+=======
+>>>>>>> 86bc52cffb876a44c3adc278b6662d558e54b4b9
 }
 
 @keyframes round {
