@@ -75,7 +75,8 @@
   display: flex;
 }
 
-.user-friends:hover {
+.user-friends:hover,
+.settings__setting:hover {
   background-color: rgba(0, 0, 0, 0.1);
   transform: translateY(-3px);
   cursor: pointer;

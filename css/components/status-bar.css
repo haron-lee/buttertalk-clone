@@ -22,3 +22,30 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+.fa-battery-full {
+  color: #32cb00;
+}
+
+.fa-bolt {
+  color: #ffeb3b;
+  animation: boltFlash 2s infinite;
+}
+
+@keyframes boltFlash {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
