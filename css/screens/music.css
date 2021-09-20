@@ -1,0 +1,157 @@
+.music-screen {
+  color: white;
+  background-image: none;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+}
+
+.music-main {
+  width: 100%;
+  height: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.music-alt-header {
+  display: flex;
+  align-items: center;
+}
+
+.my-collection,
+.for-you,
+.my-music {
+  padding-bottom: 20px;
+}
+
+.my-collection {
+  padding-right: 50px;
+  border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+.for-you {
+  border-bottom: 1px solid white;
+}
+
+.my-music {
+  padding-left: 200px;
+  border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+.music-list {
+  padding: 20px;
+  margin: 20px 40px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.music-list-header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.music-list-header::before {
+  content: "";
+  background-image: url(https://i.ytimg.com/vi/2RM02Qkon6I/sddefault.jpg);
+  background-size: 100% 200px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 20px;
+}
+
+.music-list-header__title {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.music-list-header__title span {
+  margin-bottom: 10px;
+}
+
+.music-list-header__title span:last-child,
+.list__list__title span:last-child {
+  font-size: 12px;
+  margin-top: 8px;
+  color: rgb(88, 88, 88);
+}
+
+.music-list-header i {
+  z-index: 1;
+}
+
+.music-list__list {
+  margin-top: 30px;
+  height: 400px;
+  overflow: scroll;
+}
+
+.music-list__list::-webkit-scrollbar {
+  width: 0px;
+}
+
+.list__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list__list img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.list__list__title {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+}
+
+.play-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.just-play {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  color: rgb(88, 88, 88);
+  margin-left: 10px;
+}
+
+.play-icons__icon {
+  font-size: 40px;
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.just-heart {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.fa-play {
+  color: #64dd17;
+}
+
+.fa-play:hover {
+  color: #9cff57;
+  cursor: pointer;
+}
